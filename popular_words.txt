@@ -1,0 +1,6 @@
+kk:10
+hi:4
+mohamed:2
+lol:1
+oo:1
+pp:1

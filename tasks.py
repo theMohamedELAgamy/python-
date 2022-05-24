@@ -32,6 +32,12 @@ def get_popular(file):
 
 # get_popular(sys.argv[1])
 
+def divide_strings(str1,str2):
+    print(str1[0:math.ceil((len(str1)/2.0))]+str2[0:math.ceil((len(str2)/2.0))]+str1[math.ceil((len(str1)/2.0))::]+str2[math.ceil((len(str2)/2.0))::])
+
+# divide_strings('Mohamed','nabil')
+
+
 def remove_vowels(test):
     vowels=['a','e','o','u','i']
     for vowel in vowels:
